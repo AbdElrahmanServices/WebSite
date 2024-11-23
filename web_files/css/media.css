@@ -1,0 +1,25 @@
+@media only screen and (orientation: landscape) {
+    #main-container {
+        grid-template-rows: 15% 1fr 13%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    #aside {
+    display: none;
+    }
+    #main-contents {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: normal;
+    }
+    body {
+        min-height: 100vh;
+    }
+    #sub-content {
+        border: none;
+        display: grid;
+        grid-auto-rows: 100%;
+        overflow-y: scroll;
+    }
+}
