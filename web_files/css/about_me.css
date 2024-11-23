@@ -59,7 +59,7 @@ body {
 }
 
 #sub-content {
-    display: grid;
-    border: .2em solid black;
-    border-radius: .5em;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr; */
 }
