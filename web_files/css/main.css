@@ -89,7 +89,21 @@ img {
 .my-goals p span {
     color: rgb(7, 128, 128);
 }
-
+p span:nth-child(1) {
+    color: rgb(148, 71, 0);
+}
+p span:nth-child(2) {
+    color: rgb(0, 138, 148);
+}
+p span:nth-child(3) {
+    color: rgb(123, 0, 148);
+}
+p span:nth-child(4) {
+    color: rgb(148, 0, 7);
+}
+p span:nth-child(5) {
+    color: rgb(92, 112, 0);
+}
 /*  */
 @media only screen and (orientation: landscape) {
     .my-info th, td {
