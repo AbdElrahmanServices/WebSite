@@ -1,7 +1,7 @@
 مصنع_المراتب
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YTPMxrO5P_U?si=MldBnv08QRulORgP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ورشة_الإسماعلية
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oJTZ0I3Ifg4?si=VbObUcbNRk866BYO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ofNTELIlriU?si=msBSWu6rmv6LivGV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 عامل_أمن
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OO7g30IWs0I?si=RAkEDJogS33z4rk6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 مصنع_الألمونتال
