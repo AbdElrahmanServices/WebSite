@@ -116,13 +116,6 @@ p span:nth-child(5) {
 .my-eford div h4 span:nth-child(3) {
     color: rgb(0, 255, 34);
 }
-.my-eford figure div {
-    overflow-x: scroll;
-    height: 50vh;
-    display: grid;
-    grid-auto-flow: column dense;
-    gap: .4em;
-}
 /*  */
 @media only screen and (orientation: landscape) {
     .my-info th, td {

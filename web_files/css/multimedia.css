@@ -1,8 +1,6 @@
-.gallary {
+figure {
     overflow-y: hidden;
     overflow-x: scroll;
-}
-figure {
     margin-top: .4em;
 }
 figure > div {
@@ -13,4 +11,10 @@ figure > div {
 }
 img {
     height: 50vh;
+}
+.my-eford {
+    overflow-x: hidden;
+}
+.my-eford > * {
+    overflow-x: auto;
 }
