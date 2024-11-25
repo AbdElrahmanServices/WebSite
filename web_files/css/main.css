@@ -104,6 +104,12 @@ p span:nth-child(4) {
 p span:nth-child(5) {
     color: rgb(92, 112, 0);
 }
+
+
+/* My Eford */
+p {
+    text-align: justify;
+}
 /*  */
 @media only screen and (orientation: landscape) {
     .my-info th, td {
