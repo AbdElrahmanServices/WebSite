@@ -1,0 +1,16 @@
+.gallary {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+figure {
+    margin-top: .4em;
+}
+figure > div {
+    height: 50vh;
+    display: grid;
+    grid-auto-flow: column dense;
+    gap: .4em;
+}
+img {
+    height: 50vh;
+}

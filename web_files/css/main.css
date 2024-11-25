@@ -12,34 +12,21 @@
 #main-container > section > h2 {
     color: rgb(25, 0, 255);
     font-size: 6vw;
-    border-radius: .3em;
+    border-bottom: .2em solid;
+    border-radius: .6em;
+    padding-bottom: .4em;
+    margin-bottom: .3em;
     text-align: center;
-
 }
 #main-container > section h3 {
     color: rgb(0, 138, 23);
     font-size: 4vw;
 }
-li, p, h4, span, summary, figcaption {
+li, p, h4, span, summary {
     font-size: 3vw;
     font-weight: 600;
 }
-.gallary {
-    overflow-y: hidden;
-    overflow-x: scroll;
-}
-figure {
-    margin-top: .4em;
-}
-figure > div {
-    height: 50vh;
-    display: grid;
-    grid-auto-flow: column dense;
-    gap: .4em;
-}
-img {
-    height: 50vh;
-}
+
 /* My Info */
 .my-info caption {
     text-align: right;
@@ -57,10 +44,10 @@ img {
     font-weight: 300;
 }
 /* my-skills */
-.my-skills > *:nth-child(2) {
+.my-skills article:nth-child(2) {
     border-bottom: .3em solid black;
-    padding-bottom: .4em;
-    margin-bottom: .4em;
+    padding: .4em;
+    margin: 0 0 .4em;
 }
 #Technical > li {
     color: rgb(167, 109, 35);
@@ -128,6 +115,13 @@ p span:nth-child(5) {
 }
 .my-eford div h4 span:nth-child(3) {
     color: rgb(0, 255, 34);
+}
+.my-eford figure div {
+    overflow-x: scroll;
+    height: 50vh;
+    display: grid;
+    grid-auto-flow: column dense;
+    gap: .4em;
 }
 /*  */
 @media only screen and (orientation: landscape) {
