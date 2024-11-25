@@ -89,3 +89,25 @@ img {
 .my-goals p span {
     color: rgb(7, 128, 128);
 }
+
+/*  */
+@media only screen and (orientation: landscape) {
+    .my-info th, td {
+        font-size: 3vw;
+    }
+    .my-info caption {
+        font-size: 3vw;
+    }
+    #main-container > section > h2 {
+        font-size: 4vw;
+    }
+    #main-container > section h3 {
+        font-size: 3vw;
+    }
+    figure > div {
+        height: 80vh;
+    }
+    img {
+        height: 80vh;
+    }
+}

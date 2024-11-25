@@ -10,9 +10,4 @@ body {
     grid-template-rows: 93vh auto;
     gap: .3em;
 }
-@media screen and (min-width: 480px) {
-    #aside {
-        background-color: aquamarine;
-        position: static;
-    }
-}
+

@@ -6,13 +6,13 @@
     align-items: center;
     border-bottom: .2em solid black;
     padding: .2em 0;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 #aside a {
     color: white;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 900;
     background-image: linear-gradient(to bottom left, rgb(0, 195, 255), rgb(17, 0, 255), rgb(241, 15, 211));
     padding: .3em;
@@ -20,6 +20,18 @@
     box-shadow: .1em .1em .9em .1em;
 }
 #aside a:hover {
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
     color: white;
+}
+@media only screen and (orientation: landscape) {
+    #aside a {
+        font-size: 2vw;
+        position: static;
+    }
+}
+@media only screen and (orientation: portrait) {
+    #aside {
+        position: sticky;
+        top: 0;
+    }
 }

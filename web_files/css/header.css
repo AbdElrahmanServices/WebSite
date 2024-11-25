@@ -39,4 +39,14 @@
     border-radius: .5em;
     padding: .2em;
 }
-
+@media only screen and (orientation: landscape) {
+    #god-name {
+        font-size: 5vw;
+    }
+    #title {
+        font-size: 4vw;
+    }
+    #nav a {
+        font-size: 3vw;
+    }
+}
