@@ -12,6 +12,11 @@
 #main-container > section > h2 {
     color: rgb(25, 0, 255);
     font-size: 8vw;
+    background-color: antiquewhite;
+    border-radius: .3em;
+    width: 3em;
+    text-align: center;
+
 }
 #main-container > section h3 {
     color: rgb(0, 138, 23);
