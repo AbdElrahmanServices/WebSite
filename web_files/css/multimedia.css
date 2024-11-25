@@ -15,6 +15,6 @@ img {
 .my-eford {
     overflow-x: hidden;
 }
-.my-eford figure {
-    overflow-x: scroll;
+.my-eford article {
+    overflow-x: hidden;
 }
