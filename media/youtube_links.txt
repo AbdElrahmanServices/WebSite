@@ -3,10 +3,9 @@
 ورشة_الإسماعلية
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ofNTELIlriU?si=msBSWu6rmv6LivGV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 عامل_أمن
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OO7g30IWs0I?si=RAkEDJogS33z4rk6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OO7g30IWs0I?si=_Ih0ZVyEOftK_Oxb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 مصنع_الألمونتال
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E0uFma-RUIE?si=F9OiM25Yz9O0S30R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-صنايعي_نقاشة
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E0uFma-RUIE?si=r39Vp0KkcVrZKxFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>صنايعي_نقاشة
 ماركت_البدرشين
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A206B-eTliM?si=PDAOKjT43KMbmwbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 محاسب_مخزن
@@ -22,3 +21,8 @@ ps4
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ojCI792GQwE?si=sd3-r_lh00OD-hN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 my apartemat
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3mWY0GL1KD0?si=doOCUc55pmRwcX0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+نقاش
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HfolVDLj79g?si=WcwdFt8ikg-lKETz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
