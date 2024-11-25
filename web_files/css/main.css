@@ -29,7 +29,7 @@ li, p, h4, span, summary, figcaption {
     overflow-x: scroll;
 }
 figure {
-    margin-bottom: .4em;
+    margin-top: .4em;
 }
 figure > div {
     height: 50vh;
@@ -76,4 +76,16 @@ img {
 }
 #Technical details ul {
     color: rgb(152, 35, 167);
+}
+
+/* ======================== */
+/* My Goals */
+.my-goals h3 {
+    margin-top: .7em;
+}
+.my-goals > h3 span {
+    color: red;
+}
+.my-goals p span {
+    color: rgb(7, 128, 128);
 }
