@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    padding: .4em;
+    display: grid;
+    grid-template-rows: 93vh auto;
+    gap: .3em;
+}

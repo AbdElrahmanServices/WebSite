@@ -1,6 +1,6 @@
 @media only screen and (orientation: landscape) {
     #main-container {
-        grid-template-rows: 15% 1fr 13%;
+        grid-template-rows: 15% 1fr 12%;
     }
 }
 @media screen and (max-width: 1150px) {

@@ -1,0 +1,42 @@
+#header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: center;
+    gap: .2em;
+    border-bottom: .2em solid;
+    padding: .4em;
+}
+#header > * {
+    border: .2em solid black;
+    padding: .3em;
+    font-weight: 900;
+}
+#god-name {
+    grid-column: span 2;
+    font-size: 8vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /* background-image: linear-gradient(to); */
+    background-image: radial-gradient(circle, rgb(241, 59, 241), rgb(0, 225, 255), green);
+}
+#title {
+    color: rgb(0, 0, 0);
+    /* background-image: radial-gradient(circle, rgb(110, 110, 228), rgb(149, 228, 149), orange); */
+    font-size: 6vw;
+    background-image: linear-gradient(to bottom right, red, yellow, green);
+}
+#nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav a {
+    font-size: 5vw;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom left, rgb(0, 195, 255), rgb(17, 0, 255), rgb(241, 15, 211));
+    border-radius: .5em;
+    padding: .3em;
+}
+

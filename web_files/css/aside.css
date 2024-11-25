@@ -1,0 +1,25 @@
+#aside {
+    background-image: linear-gradient(to bottom right, rgb(197, 75, 75), white, yellow);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: .2em solid black;
+    padding: .2em 0;
+    position: sticky;
+    top: 0;
+}
+#aside a {
+    color: white;
+    text-decoration: none;
+    font-size: 4vw;
+    font-weight: 900;
+    background-image: linear-gradient(to bottom left, rgb(0, 195, 255), rgb(17, 0, 255), rgb(241, 15, 211));
+    padding: .3em;
+    border-radius: .4em;
+    box-shadow: .1em .1em .9em .1em;
+}
+#aside a:hover {
+    background-color: blue;
+    color: white;
+}
