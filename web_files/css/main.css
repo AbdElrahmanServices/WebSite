@@ -11,24 +11,25 @@
 }
 #main-container > section > h2 {
     color: rgb(25, 0, 255);
-    font-size: 8vw;
-    background-color: antiquewhite;
+    font-size: 6vw;
     border-radius: .3em;
-    width: 3em;
     text-align: center;
 
 }
 #main-container > section h3 {
     color: rgb(0, 138, 23);
-    font-size: 6vw;
+    font-size: 4vw;
 }
 li, p, h4, span, summary, figcaption {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 600;
 }
 .gallary {
     overflow-y: hidden;
     overflow-x: scroll;
+}
+figure {
+    margin-bottom: .4em;
 }
 figure > div {
     height: 50vh;
@@ -40,23 +41,23 @@ img {
     height: 50vh;
 }
 /* My Info */
-#my-info caption {
+.my-info caption {
     text-align: right;
     color: rgb(77, 0, 29);
     font-weight: 900;
     font-size: 5vw;
 }
-#my-info th, td {
+.my-info th, td {
     border: .1em solid red;
     font-weight: 900;
     font-size: 5vw;
 }
-#my-info td {
+.my-info td {
     padding-right: .3em;
     font-weight: 300;
 }
 /* my-skills */
-#my-skills > *:nth-child(2) {
+.my-skills > *:nth-child(2) {
     border-bottom: .3em solid black;
     padding-bottom: .4em;
     margin-bottom: .4em;
