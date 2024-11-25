@@ -32,11 +32,11 @@
     align-items: center;
 }
 #nav a {
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     text-decoration: none;
     background-image: linear-gradient(to bottom left, rgb(0, 195, 255), rgb(17, 0, 255), rgb(241, 15, 211));
     border-radius: .5em;
-    padding: .3em;
+    padding: .2em;
 }
 
