@@ -34,3 +34,11 @@
         top: 0;
     }
 }
+@media only screen and (min-width: 780px) {
+    #aside {
+        background-color: aqua;
+        position: sticky;
+        top: 0;
+    }
+}
+
