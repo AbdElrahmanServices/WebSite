@@ -1,25 +1,54 @@
-@media only screen and (orientation: landscape) {
-    #main-container {
-        grid-template-rows: 15% 1fr 12%;
-    }
-}
-@media screen and (max-width: 1150px) {
+/* portrait */
+@media (min-width: 780px) or (orientation: portrait) {
     #aside {
-    display: none;
+        position: sticky;
+        top: 0;
     }
-    #main-contents {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        align-items: normal;
+    #footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        border: .2em solid black;
+        padding: 0 .5em;
+        font-size: 3vw;
     }
     body {
         min-height: 100vh;
-    }
-    #sub-content {
-        border: none;
+        padding: .4em;
         display: grid;
-        grid-auto-rows: 100%;
-        overflow-y: scroll;
+        grid-template-rows: 93vh auto;
+        gap: .3em;
+    }
+}
+/* landscape */
+@media only screen and (orientation: landscape) {
+    #aside a {
+        font-size: 2vw;
+        position: static;
+    }
+}
+
+
+
+
+@media only screen and (orientation: landscape) {
+    .my-info th, td {
+        font-size: 3vw;
+    }
+    .my-info caption {
+        font-size: 3vw;
+    }
+    #main-container > section > h2 {
+        font-size: 4vw;
+    }
+    #main-container > section h3 {
+        font-size: 3vw;
+    }
+    figure > div {
+        height: 80vh;
+    }
+    img {
+        height: 80vh;
     }
 }

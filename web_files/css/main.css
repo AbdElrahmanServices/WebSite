@@ -117,23 +117,20 @@ p span:nth-child(5) {
     color: rgb(0, 255, 34);
 }
 /*  */
-@media only screen and (orientation: landscape) {
-    .my-info th, td {
-        font-size: 3vw;
-    }
-    .my-info caption {
-        font-size: 3vw;
-    }
-    #main-container > section > h2 {
-        font-size: 4vw;
-    }
-    #main-container > section h3 {
-        font-size: 3vw;
-    }
-    figure > div {
-        height: 80vh;
-    }
-    img {
-        height: 80vh;
-    }
+.my-goals {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.my-goals > div {
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-flow: column dense;
+    gap: .4em;
+}
+.my-goals > div > div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .4em;
 }
