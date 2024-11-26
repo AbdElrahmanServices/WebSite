@@ -1,121 +1,523 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <style>
-        img {
-            width: 100px;
-        }
-        video {
-            width: 200px;
-        }
-    </style>
-</head>
-<body>
-    <header class="header">
-        <div class="logo">
-            <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
-            <span>بسم الله الرحمن الرحيم</span>
-            <span class="logo-title">المبدع</span>
-            <a href="" target="_blank"><img src="./media/a_my_pics/a_my_pics_01.webp" alt="" id="logo-image"></a>
-        </div>
-        <nav class="nav">
-            <a href="">الرئيسية</a>
-            <a href="./web_files/about_me.html">نبذة عني</a>
-            <a href="">خدماتي</a>
-        </nav>
-    </header>
-    <main class="main">
-        <section>
-            <h2>تعريف بالموقع</h2>
-            <p>موقعي الشخصي الأول أعرض فيه خدماتي وأعرفكم بنفسي.</p>
-        </section>
-        <section>
-            <h2>لماذا تتعامل مع المبدع؟</h2>
-            <p>لأني أقدم أفضل جودة بأقل سعر وأحسن معاملة</p>
-        </section>
-        <section>
-            <h2>خدمات المبدع</h2>
-            <p>
-                خدمات الموقع متعددة ولها صفحة خاصة لمعرفتها بالتفصيل ورؤية أمثلة توضيحية ومعرفة الأسعار إضغط علي 
-                <a href="">خدماتي</a><br>
-                وهذه بعضا منها علي سبيل الإجمال: -
-                <section>
-                    <h3>أولا- في مجال التعليم: -</h3>
-                    <ol>
-                        <li><span>خدمات للطلبة: -</span>
-                            <ol>
-                                <li>تلخيص المناهج التعليمة في مذكرات لطيفة وطباعتها.</li>
-                                <li>عمل الأبحاث والمشاريع العلمية.</li>
-                                <li>تفريغ المحاضرات الصوتية لنصوص (Word & PDF).</li>
-                                <li>تحميل كورسات في مختلف المجالات التعليمية باللغتين العربية والإنجليزية بأعلي جودة.</li>
-                                <li>ترجمة الأبحاث الخارجية وتلخيصها وتنسيقها للطباعة.</li>
-                            </ol>
-                        </li>
-                        <li><span>خدمات للمعلمين</span>
-                            <ol>
-                                <li>إنشاء عروض تقديمية للمعلمين لعرضها للطلاب داخل القاعات الدراسية.</li>
-                                <li>طباعة الملازم والمذكرات</li>
-                                <li>تحضير محاضرات</li>
-                                <li>تصميم جداول وخطط دراسية</li>
-                            </ol>
-                        </li>
-                    </ol>
-                </section>
-                <section>
-                    <h3>ثانيا- في مجال الوسائط المتعددة والمحتوي الاجتماعي (Social & Multimedia): -</h3>
-                    <ol>
-                        <li><span>قسم الصور (Photo Editing): -</span>
-                            <ol>
-                                <li>تحسين جودة الصور الشخصية وتغيير الخلفيات وإضافة تأثيرات</li>
-                                <li>تجميع الصور المتفرقة في البوم ورقي أو الكتروني للإهداء في أعياد الميلاد</li>
-                                <li>عمل البوم حفل الزفاف</li>
-                                <li>عمل الصور الرسمية للمصالح الحكومية والوظائف، مثل: -
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>نبذة عني</title>
+        <meta name="author" content="Abdo">
+        <meta name="description" content="my_personal_website">
+        <meta name="keywords" content="Biogrfical, CV, Resmai">
+        <link rel="stylesheet" href="./web_files/css/global.css">
+        <link rel="stylesheet" href="./web_files/css/header.css">
+        <link rel="stylesheet" href="./web_files/css/aside.css">
+        <link rel="stylesheet" href="./web_files/css/main.css">
+        <link rel="stylesheet" href="./web_files/css/footer.css">
+        <link rel="stylesheet" href="./web_files/css/multimedia.css">
+    </head>
+    <body>  
+        <!--Main Container  -->
+        <main id="main-container">
+            <!-- Header -->
+            <header id="header">
+                <span id="god-name">بسم الله الرحمن الرحيم</span>
+                <h1 id="title">موقع المتميز</h1>
+                <nav id="nav">
+                    <a href="">الرئيسية</a>
+                    <a href="">نبذة عني</a>
+                    <a href="">خدماتي</a>
+                </nav>
+            </header>
+            <!-- Aside Index -->
+            <aside id="aside">
+                <a href="#1">من أنا؟</a>
+                <a href="#2">شهاداتي</a>
+                <a href="#3">مهاراتي</a>
+                <a href="#4">أهدافي</a>
+                <a href="#5">كفاحي</a>
+            </aside>
+            <section id="1" class="my-info">
+                <h2>أولا- من أنا؟</h2>
+                <table>
+                    <caption id="info">بياناتي الأساسية: -</caption>
+                    <tr>
+                        <th>اسمي:</th>
+                        <td>عبد الرحمن محمد عبد الباري</td>
+                    </tr>
+                    <tr>
+                        <th>سني:</th>
+                        <td>27 عاما مواليد عام (1997م)</td>
+                    </tr>
+                    <tr>
+                        <th>جنسيتي:</th>
+                        <td>مصري</td>
+                    </tr>
+                    <tr>
+                        <th>إقامتي:</th>
+                        <td>بمحافظة الجيزة، <sub>وتعرف بالجيزة اللذيذة.</sub></td>
+                    </tr>
+                </table>
+                <figure class="gallary">
+                    <figcaption>اضغط علي الصورة للتكبير</figcaption>
+                    <div>
+                        <!-- <a href="./my_pics.html"><img src="../media/a_my_pics/a_my_pics_07.webp" alt=""></a> -->
+                        <a href="./my_pics.html"><img src="../media/a_my_pics/a_my_pics_07.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/a_my_pics/a_my_pics_06.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/a_my_pics/a_my_pics_05.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/a_my_pics/a_my_pics_04.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/a_my_pics/a_my_pics_03.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/a_my_pics/a_my_pics_02.webp" alt=""></a>
+                    </div>
+                </figure> 
+            </section>
+            <section id="2" class="my-degrres">
+                <h2>ثانيا- شهاداتي العلمية: -</h2>
+                <ul>
+                    <li>(ليسانس) كلية أصول الدين بجامعة الأزهر <sup>(حفظها الله)</sup></li>
+                    <li>شهادات Online</li>
+                </ul>
+                <!-- gallary of my certifcits & Friends -->
+                <figure class="gallary">
+                    <figcaption hidden>اضغط علي الصورة للتكبير</figcaption>
+                    <div>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_01.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_02.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_03.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_04.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_05.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_06.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_07.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_08.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_09.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_10.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_11.webp" alt=""></a>
+                        <a href="./my_pics.html"><img src="../media/d_my_education/d_my_education_12.webp" alt=""></a>
+                    </div>
+                </figure>
+            </section>
+            <section id="3" class="my-skills">
+                <h2>ثالثا- مهاراتي الشخصية: -</h2>
+                <article id="religon" dir="rtl">
+                    <h3>المهارات الدينية</h3>
+                    <ul>
+                            <li title="الحمد لله رب العالمين">المحافظة علي الصلاة <sup>"وما بكم من نعمة فمن  الله"</sup></li>
+                            <li title="الحمد لله رب العالمين">تلاوة القرآن الكريم</li>
+                            <li title="يارب أسعدني بما علمتني *** ولا تهني بعد إذ أكرمتني">حفظ بعض المتون العلمية المختصرة في (العقيدة والحديث والفقه)</li>
+                            <li title="اللهم الثبات الثبات حتي الممات">حسن الخلق لا أعادي، واصلا لأرحامي لا أجافي.</li>
+                    </ul>
+                </article>
+                <article id="art-Technical" dir="ltr">
+                <h3>Technical Skills</h3>
+                <ul id="Technical">
+                    <!-- Hardware Skills -->
+                    <li>Basic Hardware & Technical Support</li>
+                    <!-- Office Skills -->
+                    <li>MS Office
+                        <ul>
+                            <li>Word</li>
+                            <li>PowerPoint</li>
+                            <li>Excel
+                                <details>
+                                    <summary>Details</summary>
+                                    <ol>
+                                        <li>Data Entry with Good Formats & Data Validation</li>
+                                        <li>General Functions & Financial Functions</li>
+                                        <li>Data Visualization
+                                            <ul>
+                                                <li>Conditional Formats</li>
+                                                <li>Sparklines</li>
+                                                <li>Charts</li>
+                                            </ul>
+                                        </li>
+                                        <li>Data Analysis & Summarization
+                                            <ul>
+                                                <li>What-if Analysis</li>
+                                                <li>Pivot Charts</li>
+                                                <li>PivotTables</li>
+                                            </ul>
+                                        </li>
+                                        <li>Macros & VBA</li>
+                                    </ol>
+                                </details>
+                            </li>
+                            <li>Access
+                                <details>
+                                    <summary>Details</summary>
+                                    <ol>
+                                        <li>Tables</li>
+                                        <li>Queries</li>
+                                        <li>Forms</li>
+                                        <li>Reports</li>
+                                        <li>Macros & VBA</li>
+                                    </ol>
+                                </details>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Multimedia Skills -->
+                    <li>Multimedia
+                        <ul>
+                            <li>Adobe Photoshop (Beginner).</li>
+                            <li>Adobe Premiere Pro (Basics).</li>
+                            <li>Adobe After Effects (Basics).</li>
+                        </ul>
+                    </li>
+                    <!-- Web Development Skills -->
+                    <li>Web Development
+                        <ol>
+                            <li>Front-end
+                                <details>
+                                    <summary>Details</summary>
+                                    <ol>
+                                        <li><span>HTML</span><span>(Intermediate)</span></li>
+                                        <li><span>CSS</span><span>(Intermediate)</span></li>
+                                        <li><span>JavaScript</span><span>(Beginner)</span></li>
+                                    </ol>
+                                </details>
+                            </li>
+                            <li>
+                                Back-end (Full-Stack Developer)
+                                <details>
+                                    <summary>Details</summary>
                                     <ul>
-                                        <li>صور (4*6)</li>
-                                        <li>صور CV</li>
-                                        <li>Online Portifolio</li>
+                                        <li><span>SQL</span> <span>(Not Yet)</span></li>
+                                        <li><span>C# ASP.Net</span> <span>(Not Yet)</span></li>
                                     </ul>
-                                </li>
-                                <li></li>
-                            </ol>
-                        </li>
-                        <li><span>قسم الفديو (Video Editing)</span>
-                            <ol>
-                                <li>ترجمة ودبلجة الفديوهات من أي لغة إلي اللغة العربية.</li>
-                                <li>تقطيع الفديوهات الطويلة إلي مقاطع قصيرة وتلخيصها، مثل الكورسات المجمعة في فديو واحد علي اليوتيوب.</li>
-                                <li>تعديل الفديوهات الشخصية وحفلات الزفاف.</li>
-                                <li>تجميع الصور في فديو اخترافي بانتقالات مزهلة.</li>
-                            </ol>
-                        </li>
-                    </ol>
-                </section>
-                <section>
-                    <h3>ثالثا- في مجال التصميم والتطوير: -</h3>
-                    <ol>
-                        <li>تصميم الخرائط الذهنية (Maind Maps)</li>
-                        <li>تصميم الرسوم التوضيحية لإدارة المشاريع الكبري (Visual Paradigm)</li>
-                        <li>تصميم واجهات مواقع الكترونية (Web Desgin)</li>
-                        <li>تطوير مواقع إنترنت (تجارية، دعائية، تعليمية، إدارية) (Web Development</li>
-                        <li>تصميم وتطوير العاب الحاسب (Game Desgin & Development)</li>
-                        <li>3D Modeling & Animations</li>
-                    </ol>
-                </section>
-            </p>
-        </section>
-    </main>
-</body>
-<footer>
-    <h2>للتواصل</h2>
-    <span>WhatsApp: 01067661279</span>
-    <span><a href="">Facebook</a></span>
-    <span><a href="">Telegram</a></span>
-</footer>
+                                </details>
+                            </li>
+                        </ol> 
+                    </li>
+                </ul>
+                </article>
+            </section>
+            <section id="4" class="my-goals">
+                    <h2>رابعا- أهدافي المستقبلية: -</h2>
+                        <h3>أولا- إكمال مسيرتي العلمية.</h3>
+                        <figure class="gallary">
+                            <figcaption hidden>اضغط علي الصورة للتكبير</figcaption>
+                            <div>
+                                <!-- <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_01.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_02.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_03.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_04.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_05.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_06.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_07.webp" alt=""></a> -->
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/a_learning_great_skils/a_learning_great_skils_08.webp" alt=""></a>
+                            </div>
+                        </figure>
+                        <h3>ثانيا- التوظف في شركة عالمية.</h3>
+                        <details hidden>
+                            <summary>تفاصيل</summary>
+                            <p>شركة عالمية تقدم خدمات في شتي المجالات، ومن أرباحها بناء جامعة عالمية تؤهل أفضل خريجيها للعمل في شركتي.</p>
+                        </details>
+                        <figure class="gallary">
+                            <figcaption hidden>اضغط علي الصورة للتكبير</figcaption>
+                            <div>
+                                <!-- <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_01.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_02.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_03.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_04.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_05.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_06.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_07.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_08.webp" alt=""></a> -->
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/d_build_a_universal_company/d_build_a_universal_company_09.webp" alt=""></a>
+                            </div>
+                        </figure>
+                        <h3 title="اللهم آمين، لي ولكل من أمن">
+                        ثالثا-  الزواج:
+                        <span>اللهم أسئلك زوجة صالحة وذرية طيبة وأنت تجعلني للمتقين إماما.</span>
+                        </h3>
+                        <figure class="gallary">
+                            <figcaption hidden>اضغط علي الصورة للتكبير</figcaption>
+                            <div>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/c_get_mared/Wedding_suits/Wedding_suits_05.webp" alt=""></a>
+                                <!-- <a href="./my_pics.html"><img src="../media/e_my_goals/c_get_mared/c_get_mared_02.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/c_get_mared/c_get_mared_03.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/c_get_mared/c_get_mared_04.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/c_get_mared/c_get_mared_05.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/c_get_mared/c_get_mared_06.webp" alt=""></a> -->
+                            </div>
+                        </figure>
+                        <h3>رابعا- التقاعد في غني وعافية.</h3>
+                        <details>
+                            <summary>تفاصيل</summary>
+                            <p title="اللهم إنا نعوذ بك أن نقول ما لا نفعل، وأجعلنا أكثر المنتفعين بما علمتنا">
+                            <span>الغني</span> بحسن الإدارة المالية وأداء الزكاة وكثرة الصدقات وأن يكون حلالا.<br>
+                            <span>والعافية النفسية</span> بقيام الليل <span>والبدنية</span> بالاهتمام باللياقة البدنية <span>والعقلية</span> بالقراءة.
+                            </p>
+                        </details>
+                        <figure class="gallary">
+                            <figcaption hidden>اضغط علي الصورة للتكبير</figcaption>
+                            <div>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/b_get_rich/b_get_rich_02.webp" alt=""></a>
+                                <!-- <a href="./my_pics.html"><img src="../media/e_my_goals/b_get_rich/b_get_rich_01.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/b_get_rich/b_get_rich_03.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/b_get_rich/b_get_rich_04.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/b_get_rich/b_get_rich_05.webp" alt=""></a>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/b_get_rich/b_get_rich_06.webp" alt=""></a> -->
+                            </div>
+                        </figure>
+                        <h3 title="اللهم نسألك حسن الخاتمة">خامسا وأخيرا- الموت في سلام وأمان.</h3>
+                        <figure class="gallary">
+                            <figcaption hidden>اضغط علي الصورة للتكبير</figcaption>
+                            <div>
+                                <a href="./my_pics.html"><img src="../media/e_my_goals/f_great_retairment/f_great_retairment.webp" alt=""></a>
+                            </div>
+                        </figure>
+            </section>
+            <section id="5" class="my-eford">
+                <h2>خامسا- كفاحي لتحقيق أهدافي: -</h2>
+                <article id="my-work">
+                    <h3>أولا- الشغل وتوفير الماديات:</h3>
+                    <p>
+                        <span>
+                        تبدأ حكايتي في قرية صغيرة تسمي برنشت بمركز العياط 
+                        وأول شغل لي كان العمل بمزرعة فراخ بالضبعي وكنت حينها في الصف الرابع الابتدائي، <br></span>
+                        <span>
+                        وحينما أنهيت الابتدائية انتقل بنا أبي حفظه الله إلي مركز العياط وأكملت بها الإعدادية، وخلال هذه السنوات الثلاث
+                        اشتغلت في ثمانية اشغالات مختلفة،</span> 
+                        <span>
+                        <br>أولها كنت أقوم ببيع أطباق الحلويات علي العجلة إلي محلات البقالة
+                        ثم اشتغلت بتوزيع الشاي علي الركاب في القطار،
+                        ثم اشتغلت في البلدية مدة ثلاثة أشهر، وبعد ذلك اشتغلت في ثلاث شركات ملابس، ثم ورشة طوب بالبليدة.
+                        وسافرت إلي الأسكندرية وعملت هناك في مغسلة ولم أكمل أسبوعين حيث كانت تلك السفرية في أيام الثورة (2011) وكان سني حينها أربعة عشر عاما
+                        فرجعت وفضلت البقاء مع أهلي.<br></span>
+                        <span>
+                        وقبل بداية العام الدراسي للمرحلة الثانوية انتقلنا إلي مركز البدرشين،
+                        وخلال سنوات الثانوية الثلاثة عملت بشركات القطاع الخاص كشركة ايجبت تريد للصناعات الغذائية (Fox)
+                        وشركة مواد غذائية أخري وكلاهما بالسادس من أكتوبر
+                        ومتي تأتي الامتحانات أترك العمل وأذهب لغيره في الأجازة.
+                        وقد حصلت علي الشهادة الابتدائية من برنشت والإعدادية من العياط والثانوية من البدرشين.<br></span>
+                        <span>
+                        وبعد امتحانات الثانوية ذهبت للعمل بفندق كاتاركت
+                        وفي هذا العام (2018) اشتريت أول موبايل بكاميرا ولم أملك موبايل قبله غير نوكيا 1200، وكنت متحمسا كثيرا بوجود الكاميرا في الموبايل الجديد فكنت ولا زلت التقط لقطات عشوائية للذكري ولم أكن أعلم حينها بأني أوثق حياتي
+                        وهذه بعضا منها:</span>
+                    </p>
+                    <div>
+                        <!-- My Work Gallaries -->
+                        <h4>من 2018 إلي 2024</h4>
+                        <div>
+                            <h4><span>2018</span> <span>فندق كتاركت</span></h4>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_04.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_05.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_06.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_07.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_08.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2018/2018_09.webp" alt=""></a>
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                        <div>
+                            <h4><span>2019-2020</span> <span>ماركت أرض اللواء بالبحوث</span></h4>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_02.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_03.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_04.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_05.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_06.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_07.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_08.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/ماركت_أرض_اللواء_01.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_02.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_03.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_04.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_05.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_06.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_07.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_08.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_09.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_10.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_11.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_12.webp"></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2019-2020/ماركت_أرض_اللواء/جبن_المعمل/جبن_المعمل_13.webp"></a>
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                        <div>
+                            <h4><span>2021</span> <span>شركة مراتب باكتوبر</span> <span>ورشة بوري بالاسماعلية</span></h4>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_04.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_05.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_06.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_07.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_08.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/مصنع_المراتب/مصنع_المراتب_09.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/YTPMxrO5P_U?si=xGteYUFbSBoK0g-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/ورشة_الإسماعلية/ورشة_الإسماعلية_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/ورشة_الإسماعلية/ورشة_الإسماعلية_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2021/ورشة_الإسماعلية/ورشة_الإسماعلية_03.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/ofNTELIlriU?si=msBSWu6rmv6LivGV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                        <div>
+                            <h4><span>2022</span> <span>مصنع الامونتال</span> <span>حارس أمن بجامعة خاصة بالشيخ زايد</span></h4>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2022/عامل_أمن/عامل_أمن_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2022/عامل_أمن/عامل_أمن_03.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/OO7g30IWs0I?si=_Ih0ZVyEOftK_Oxb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2022/مصنع_الألمونتال/مصنع_الألمونتال_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2022/مصنع_الألمونتال/مصنع_الألمونتال_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2022/مصنع_الألمونتال/مصنع_الألمونتال_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2022/مصنع_الألمونتال/مصنع_الألمونتال_04.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/E0uFma-RUIE?si=r39Vp0KkcVrZKxFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                        <div>
+                            <h4><span>2023</span> <span>محل قطع غيار وأجهزة كهربائية</span> <span>نقاش</span></h4>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/محل_أجهزة_كهربائية/محل_أجهزة_كهربائية_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/محل_أجهزة_كهربائية/محل_أجهزة_كهربائية_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_04.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_05.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_06.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_07.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_08.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_09.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_10.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_11.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_12.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2023/صنايعي_نقاشة/صنايعي_نقاشة_13.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/HfolVDLj79g?si=GXKbEpG8Ttc7sKA1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                        <div>
+                            <h4><span>2024</span> <span>أصعب عام وأقسي أيام.</span></h4>
+                            <p>ابتدأ كأفضل عام حيث خطبت فراشة ولكنها للأسف طارت.<br>
+                                وتخبطت في هذا العام كثيرا ولم أستقر في عمل وكل شهرين شغل جديد وكنت أعمل وظيفتين معا حتي أقبض مرتبا مجزيا ولكن هيهات
+                                <br>تبا للقطاع الخاص لم تنفع فيه الشهادات ولم ننل غير ضياع الأوقات
+                                سأجتهد أكثر وأتعلم لغات برمجة وأسافر وأفتتح شركتي وأبني امبراطوريتي
+                                والله وكيلي ومعيني وحسبي هو نعم الوكيل والمعين. اللهم وفق من دعا لي إلي كل خير.
+                            </p>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_04.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_05.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_06.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_07.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/ماركت_البدرشين/ماركت_البدرشين_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/ماركت_البدرشين/ماركت_البدرشين_02.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/A206B-eTliM?si=pUCIMATIuKQiVatz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/محاسب_مخزن/محاسب_مخزن.webp" alt=""></a>
+                                        <iframe height="100%" src="https://youtube.com/embed/6hjGbmPK-JU?si=WbhHumWIhvaRf7pK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/oJTZ0I3Ifg4?si=FvzdTQ12rYkjsrcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/مصنع_أجهزة_كهربائية/مصنع_أجهزة_كهربائية_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/مصنع_أجهزة_كهربائية/مصنع_أجهزة_كهربائية_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/مصنع_أجهزة_كهربائية/سكن/+¦+â+å.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/7voFovLsFSU?si=hCnRO-EJJXgUbFYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+                <article id="my-evolving">
+                        <h3>ثانيا-  تطور مادي وعلمي.</h3>
+                        <div class="personal-evolve">
+                            <h4>تطور شخصي</h4>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/أمين_مخزن/أمين_مخزن_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/c_my_work/2024/محاسب_مخزن/محاسب_مخزن.webp" alt=""></a>
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                        <div class="finance-evolve">
+                            <h4>تطور مادي</h4>
+                            <details>
+                                <summary>وثائقيات</summary>
+                                <figure class="gallary">
+                                    <figcaption hidden>صور</figcaption>
+                                    <div>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/start/start_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/start/start_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/start/start_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/start/start_04.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/start/start_05.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/start/start_06.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/start/start_07.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/b_workstation/b_workstation_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/b_workstation/b_workstation_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/b_workstation/b_workstation_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/b_workstation/b_workstation_04.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/Air_Condetional/Air_Condetional.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/BDEWB_MdUg0?si=xBLRrnFePd15R5J1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/ps4/ps4.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/ps4/unic_t6_projector_.webp" alt=""></a>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/ojCI792GQwE?si=FNoew56RJRU69sGi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <iframe height="100%" src="https://www.youtube.com/embed/3mWY0GL1KD0?si=z0ObO6oHFHUsWI6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/lifestyle/IMG_20241125_170941.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/lifestyle/IMG_20241125_171000.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/lifestyle/IMG_20241125_171009.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/c_multimonitors/c_multimonitors_01.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/c_multimonitors/c_multimonitors_02.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/c_multimonitors/c_multimonitors_03.webp" alt=""></a>
+                                        <a href="./my_pics.html"><img src="../media/f_my_seccesses/a_matherbordes/upgrade/c_multimonitors/c_multimonitors_04.webp" alt=""></a>
+
+                                    </div>
+                                </figure>
+                            </details>
+                        </div>
+                </article>
+                <article id="funny">
+                </article>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer id="footer">
+            <h2>للتواصل</h2>
+            <div>
+                <span><a href="" id="fb">Facebook</a></span>
+                <span>Whats & Tele: 01067661279</span>
+            </div>
+        </footer>
+    </body>
 </html>

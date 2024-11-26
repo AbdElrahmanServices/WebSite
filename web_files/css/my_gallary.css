@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure {
+    display: grid;
+    gap: .5em;
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: .4em;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+img {
+    height: 95vh;
+}
+figcaption {
+    background-color: antiquewhite;
+    margin-top: .3em;
+    padding: .2em;
+    font-weight: 900;
+    font-size: 5vw;
+    box-shadow: 0 .2em .8em .1em;
+}
