@@ -2,6 +2,9 @@
     overflow-y: scroll;
     overflow-x: hidden;
     border: .2em solid black;
+    border-radius: .6em;
+    /* padding: .4em; */
+    /* margin: .1em; */
 }
 #main-container > section {
     padding: .5em;

@@ -1,3 +1,14 @@
 #footer {
-    display: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: .2em solid;
+    border-top-color: green;
+    border-bottom-color: red;
+    border-right-color: blue;
+    border-left-color: yellow;
+    border-radius: .2em .8em;
+    padding: 0 .5em;
+    font-size: 3vw;
 }

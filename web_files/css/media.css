@@ -1,38 +1,28 @@
 /* portrait */
-@media (min-width: 780px) or (orientation: portrait) {
-    #aside {
-        position: sticky;
-        top: 0;
-    }
-    #footer {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: center;
-        border: .2em solid black;
-        padding: 0 .5em;
-        font-size: 3vw;
-    }
+@media screen and (orientation: portrait) {
     body {
-        min-height: 100vh;
-        padding: .4em;
+        max-height: 100vh;
+        padding: .4em .2em 0;
         display: grid;
         grid-template-rows: 93vh auto;
-        gap: .3em;
+        gap: .5em;
     }
 }
+
 /* landscape */
-@media only screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
+    body {
+        display: grid;
+        overflow-y: scroll;
+        padding: .5em .5em 1em;
+        gap: .8em;
+    }
+    #aside {
+        background-color: aquamarine;
+    }
     #aside a {
         font-size: 2vw;
-        position: static;
     }
-}
-
-
-
-
-@media only screen and (orientation: landscape) {
     .my-info th, td {
         font-size: 3vw;
     }
@@ -52,3 +42,4 @@
         height: 80vh;
     }
 }
+    
