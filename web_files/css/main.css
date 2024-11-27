@@ -59,7 +59,8 @@ li, p, h4, span, summary {
     color: rgb(35, 167, 160);
 }
 #Technical summary {
-    color: rgb(167, 44, 35);
+    color: white(167, 44, 35);
+    width: 5em;
 }
 #Technical details ol {
     color: rgb(152, 35, 167);
