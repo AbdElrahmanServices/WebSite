@@ -29,7 +29,15 @@ li, p, h4, span, summary {
     font-size: 3vw;
     font-weight: 600;
 }
-
+summary {
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    padding: .2em;
+    border-radius: .4em;
+    margin: .2em .5em;
+    box-shadow: 0 .2em .9em .2em black;
+}
 /* My Info */
 .my-info caption {
     text-align: right;
@@ -46,6 +54,17 @@ li, p, h4, span, summary {
     padding-right: .3em;
     font-weight: 300;
 }
+.my-info figcaption {
+    font-size: 3vw;
+    margin: 0 0 .8em;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    width: fit-content;
+    padding: .2em;
+    border-radius: .5em;
+    box-shadow: .2em .5em .9em black;
+}
 /* my-skills */
 .my-skills article:nth-child(2) {
     border-bottom: .3em solid black;
@@ -61,6 +80,7 @@ li, p, h4, span, summary {
 #Technical summary {
     color: white(167, 44, 35);
     width: 5em;
+    box-shadow: none;
 }
 #Technical details ol {
     color: rgb(152, 35, 167);
